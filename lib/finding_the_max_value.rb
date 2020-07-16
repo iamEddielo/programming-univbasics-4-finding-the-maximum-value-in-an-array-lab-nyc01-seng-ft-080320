@@ -4,9 +4,9 @@ def find_max_value(array)
   max_integer = 0
   while count< array.length do 
     if max_integer < array(count)
-      max_integer = max_integer
-    else 
+      max_integer = array(count)
+    end
     count += 1
   end
-  return max_integer
+  max_integer
 end
